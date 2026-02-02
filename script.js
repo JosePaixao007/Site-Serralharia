@@ -75,7 +75,7 @@ nextBtn.addEventListener('click', nextSlide);
 prevBtn.addEventListener('click', prevSlide);
 
 // Auto-play do carrossel
-let autoplayInterval = setInterval(nextSlide, 5000);
+let autoplayInterval = setInterval(nextSlide, 4000);
 
 // Pausar autoplay ao passar o mouse
 const carouselContainer = document.querySelector('.carousel-container');
@@ -84,7 +84,7 @@ carouselContainer.addEventListener('mouseenter', () => {
 });
 
 carouselContainer.addEventListener('mouseleave', () => {
-    autoplayInterval = setInterval(nextSlide, 5000);
+    autoplayInterval = setInterval(nextSlide, 4000);
 });
 
 // Validação do Formulário
